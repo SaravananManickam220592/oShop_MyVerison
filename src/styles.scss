@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+
+$primary-color : #99cc00;
+
+body{
+    padding-top: 80px;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 22px;
+}
+
+.btn-primary{
+    background-color: $primary-color;
+    border-color: yellowgreen;
+}
+
+.navbar-light .navbar-brand .fa-shopping-bag {
+    color: $primary-color;
+    margin-left: 7px;
+}
+
+.list-group-item.active {
+    background-color: $primary-color;
+    border-color: $primary-color;
+}
+
+.fa-shopping-basket{
+    color : #1f1f14;
+} 
+
+.navbar{
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
