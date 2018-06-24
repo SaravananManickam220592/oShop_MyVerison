@@ -35,6 +35,7 @@ import { ProductCardComponent } from './product-card/product-card.component';
 import { ProductQuantityComponent } from './product-quantity/product-quantity.component';
 import { ShoppingCartSummaryComponent } from './shopping-cart-summary/shopping-cart-summary.component';
 import { ShippingFormComponent } from './shipping-form/shipping-form.component';
+import { DlDateTimePickerDateModule } from 'angular-bootstrap-datetimepicker';
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { ShippingFormComponent } from './shipping-form/shipping-form.component';
     DataTableModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
+    DlDateTimePickerDateModule,
     AngularFireAuthModule,
     NgbModule.forRoot(),
     RouterModule.forRoot([
